@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: hsl(217, 54%, 11%);
+    max-width: 1440px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+}
+.nft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo img{
+    width: 250px;
+    border-radius: 10px;
+    margin: 22px 10px;
+}
+ .title h2{
+    margin: 0 0 15px 22px;
+}
+ .title p{
+    margin: 0 0 30px 22px;
+    color: hsl(215, 51%, 70%);
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    margin-left: 22px;
+    color: hsl(178, 100%, 50%);
+}
+.left img{
+    margin-right: 5px;
+}
+.right{
+    display: flex;
+    margin-right: 22px;
+}
+.right img{
+    margin-right: 5px;
+}
+.divider{
+    height: 1px;
+    background: hsl(215, 51%, 70%);
+    margin: 25px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer img{
+    width: 50px;
+   margin: 0 15px 0 20px;
+}
+.footer p{
+    color: hsl(215, 51%, 70%);
+}
+span{
+    color: #fff;
+}
+.nft-num{
+    color: #fff;
+    text-decoration: none;
+}
+.nft-num:hover{
+    color: hsl(178, 100%, 50%);
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
